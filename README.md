@@ -18,8 +18,7 @@
 > 42 School Philosophers project designed around Edsger Dijkstra's famous [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem). \
 > For this project, we must learn about concurrent programming and shared memory synconization.
 
-	🚀 TDLR: This project is an introduction to the basics of multithreading and multiprocessing.
-    	 Work on the same memory space, learn about mutexes, semaphores, and shared memory.
+	🚀 This project is an introduction to the basics of multithreading and multiprocessing. Work on the same memory space, learn about mutexes, semaphores, and shared memory.
 
 > [!NOTE]  
 > Because of 42 School norm requirements:
