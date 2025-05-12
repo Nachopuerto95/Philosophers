@@ -26,6 +26,7 @@
 > * Each function can't have more than 25 lines of code.
 > * All variables are declared and aligned at the top of each function.
 > * Project should be created just with allowed functions.
+<br>
 
 #### The subject describes the problem as follows:
 
