@@ -12,6 +12,7 @@
 
 <img src="https://github.com/Nachopuerto95/multilang/blob/main/42-Madrid%20-%20Edited.jpg">
 
+
 ## 📜 Acerca del Proyecto
 
 > El proyecto de Filósofos de la Escuela 42 está diseñado en torno al famoso [problema de los filósofos comensales](https://en.wikipedia.org/wiki/Dining_philosophers_problem) de Edsger Dijkstra. \
@@ -50,7 +51,7 @@
 
 #### El programa registra las acciones de los filósofos en este formato. X es el ID del filósofo:
 
-```
+```shell
 timestamp_in_ms X has taken a fork
 timestamp_in_ms X is eating
 timestamp_in_ms X is sleeping
@@ -62,7 +63,7 @@ timestamp_in_ms X died
 
 ** Compilando el programa**
 
-```bash
+```shell
 $ make
 ```
 
@@ -70,16 +71,17 @@ $ make
 
 Ejecuta el programa con los siguientes argumentos:
 
-shell
-Copiar
-Editar
-./philo <número_de_filosofos> <tiempo_para_morir> <tiempo_para_comer> <tiempo_para_dormir> [número_de_veces_que_cada_filosofos_debe_comer]
+```shell
+./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philo_must_eat]
+```
+
 Los argumentos deben ser enteros entre 0 e INT_MAX que representan un tiempo en milisegundos. Por ejemplo:
 
-shell
-Copiar
-Editar
+
+```shell
 ./philo 5 800 200 200 7
+```
+
 Si los argumentos son válidos, el programa mostrará las acciones de cada filósofo hasta que uno de ellos muera o hasta que todos hayan comido número_de_veces_que_cada_filosofos_debe_comer, si se especificó.
 
 <img src="https://github.com/Nachopuerto95/multilang/blob/main/program-example.png"> ```
