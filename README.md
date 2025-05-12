@@ -28,7 +28,7 @@
 > * Project should be created just with allowed functions.
 <br>
 
-#### The subject describes the problem as follows:
+### 📋 The subject describes the problem as follows:
 
 * One or more philosophers sit at a round table.
 * There is a large bowl of spaghetti in the middle of the table.
@@ -59,7 +59,7 @@ timestamp_in_ms X is thinking
 timestamp_in_ms X died
 ```
 
-## 👨‍💻 Usage
+### 👨‍💻 Usage
 
 ** Compiling the program**
 
