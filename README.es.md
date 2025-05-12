@@ -21,6 +21,9 @@
 	🚀 Este proyecto es una introducción a lo básico de multihilo y multiproceso.
  	Trabaja en el mismo espacio de memoria, aprende sobre mutexes, semáforos y memoria compartida.
 
+  	🚀 This project is an introduction to the basics of multithreading and multiprocessing.
+ 	Work on the same memory space, learn about mutexes, semaphores, and shared memory.
+
 > [!NOTE]  
 > Debido a los requisitos de la norma de la Escuela 42:
 > * Cada función no puede tener más de 25 líneas de código.
