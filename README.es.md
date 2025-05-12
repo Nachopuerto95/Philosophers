@@ -12,10 +12,9 @@
 
 <img src="https://github.com/Nachopuerto95/multilang/blob/main/42-Madrid%20-%20Edited.jpg">
 
-
 ## 📜 Acerca del Proyecto
 
-> El proyecto de Filósofos de la Escuela 42 está diseñado en torno al famoso [problema de los filósofos comensales](https://en.wikipedia.org/wiki/Dining_philosophers_problem) de Edsger Dijkstra. \
+> El proyecto de Filósofos de la Escuela 42 está diseñado en torno al famoso [problema de los filósofos comensales](https://en.wikipedia.org/wiki/Dining_philosophers_problem) de Edsger Dijkstra.
 > Para este proyecto, debemos aprender sobre programación concurrente y sincronización de memoria compartida.
 
 	🚀 Este proyecto es una introducción a lo básico de multihilo y multiproceso.
