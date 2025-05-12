@@ -43,20 +43,20 @@
 `./philo <número_de_filosofos> <tiempo_para_morir> <tiempo_para_comer> <tiempo_para_dormir>
 [número_de_veces_que_cada_filosofos_debe_comer]`
 
-* **```número_de_filosofos```**: el número de filósofos alrededor de la mesa.
-* **```tiempo_para_morir```**: un número que representa el tiempo en milisegundos que un filósofo tiene para vivir después de una comida. Si un filósofo no ha comenzado a comer dentro del tiempo `tiempo_para_morir` milisegundos después del inicio de su última comida o el inicio de la simulación, morirá.
-* **```tiempo_para_comer```**: un número que representa el tiempo en milisegundos que un filósofo tarda en terminar su comida. Durante ese tiempo, el filósofo mantiene los dos tenedores en las manos.
-* **```tiempo_para_dormir```**: el tiempo en milisegundos que un filósofo pasa durmiendo.
-* **```número_de_veces_que_cada_filosofos_debe_comer```**: un argumento opcional que permite que el programa se detenga si todos los filósofos han comido al menos esa cantidad de veces. Si este argumento no se especifica, la simulación continúa a menos que un filósofo muera.
+* **```number_of_philosophers```**: el número de filósofos alrededor de la mesa.
+* **```time_to_die```**: un número que representa el tiempo en milisegundos que un filósofo tiene para vivir después de una comida. Si un filósofo no ha comenzado a comer dentro del tiempo `tiempo_para_morir` milisegundos después del inicio de su última comida o el inicio de la simulación, morirá.
+* **```time_to_eat```**: un número que representa el tiempo en milisegundos que un filósofo tarda en terminar su comida. Durante ese tiempo, el filósofo mantiene los dos tenedores en las manos.
+* **```time_to_sleep```**: el tiempo en milisegundos que un filósofo pasa durmiendo.
+* **```number_of_times_each_philosopher_must_eat```**: un argumento opcional que permite que el programa se detenga si todos los filósofos han comido al menos esa cantidad de veces. Si este argumento no se especifica, la simulación continúa a menos que un filósofo muera.
 
 #### El programa registra las acciones de los filósofos en este formato. X es el ID del filósofo:
 
-```bash
-timestamp_en_ms X ha tomado un tenedor
-timestamp_en_ms X está comiendo
-timestamp_en_ms X está durmiendo
-timestamp_en_ms X está pensando
-timestamp_en_ms X murió
+```
+timestamp_in_ms X has taken a fork
+timestamp_in_ms X is eating
+timestamp_in_ms X is sleeping
+timestamp_in_ms X is thinking
+timestamp_in_ms X died
 ```
 
 ### 👨‍💻 Uso
