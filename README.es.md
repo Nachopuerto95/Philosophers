@@ -40,8 +40,8 @@
 
 #### El programa toma los siguientes argumentos:
 
-`./philo <número_de_filosofos> <tiempo_para_morir> <tiempo_para_comer> <tiempo_para_dormir>
-[número_de_veces_que_cada_filosofos_debe_comer]`
+`./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep>
+[number_of_times_each_philosopher_must_eat]`
 
 * **```number_of_philosophers```**: el número de filósofos alrededor de la mesa.
 * **```time_to_die```**: un número que representa el tiempo en milisegundos que un filósofo tiene para vivir después de una comida. Si un filósofo no ha comenzado a comer dentro del tiempo `tiempo_para_morir` milisegundos después del inicio de su última comida o el inicio de la simulación, morirá.
